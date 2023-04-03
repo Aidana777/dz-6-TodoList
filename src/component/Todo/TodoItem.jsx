@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid'
+import './todo.css';
 const TodoItem = ({ todos, setTodos, input, setInput, editTodo, setEditTodo }) => {
 
 
@@ -34,8 +35,9 @@ const TodoItem = ({ todos, setTodos, input, setInput, editTodo, setEditTodo }) =
     }
   }
   return (
-    <form onSubmit={onFormSubmit}>
+    <form className='form' onSubmit={onFormSubmit}>
       <input
+        className='todoInput'
         type="text"
         placeholder='Enter a Todo...'
         value={input}
@@ -43,6 +45,7 @@ const TodoItem = ({ todos, setTodos, input, setInput, editTodo, setEditTodo }) =
         onChange={onInputChange}
       />
       <button
+        className='submit_btn'
         type='submit'
       >Add</button>
     </form>

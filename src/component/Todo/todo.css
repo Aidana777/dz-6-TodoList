@@ -1,0 +1,147 @@
+.form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #CACFD6;
+}
+
+.todoInput {
+    width: 1200px;
+    height: 50px;
+    font-size: 20px;
+    font-style: normal;
+
+
+}
+
+.submit_btn {
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: dodgerblue;
+    color: black;
+
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 15px;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 23px;
+
+}
+
+.list__btns {
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.edit_btn {
+    width: 120px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 40%;
+    background-color: #A6B1E1;
+    border: none;
+
+}
+
+.delete_btn {
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 40%;
+    background-color: #DCD6F7;
+    border: none;
+
+}
+/* dark */
+
+#dark .todoInput {
+    width: 1200px;
+    height: 50px;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+  
+  
+  }
+  
+  #dark .submit_btn {
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: #2A2D43;
+    color: white;
+    margin-left: 5px;
+  
+  }
+  
+  #dark .content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 15px;
+    background-color: #7F2CCB;
+    color: white;
+  
+  
+  }
+  
+  #dark .title {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    background-color: #7F2CCB;
+  
+  }
+  
+  
+  
+  #dark .edit_btn {
+    width: 120px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 40%;
+    background-color: #854798;
+    color: white;
+    font-size: 17x;
+    border: none;
+  
+  }
+  
+  #dark .delete_btn {
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 40%;
+    background-color: #7C238C;
+    color: white;
+    border: none;
+  
+  }

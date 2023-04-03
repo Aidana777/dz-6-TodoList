@@ -1,0 +1,23 @@
+.header {
+  width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  background-color: lightblue;
+  padding-top: 19px;
+}
+#dark .header {
+  width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  background-color: darkslateblue;
+  color: white;
+  padding-top: 19px;
+}

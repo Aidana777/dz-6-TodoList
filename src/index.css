@@ -1,13 +1,96 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#dark {
+  background-color: #173753;
+  width: 100%;
+  height: 100vh;
+}
+
+#light {
+  background-color: ghostwhite;
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+
+#dark .todoInput {
+  width: 1200px;
+  height: 50px;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+
+
+}
+
+#dark .submit_btn {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background-color: #2A2D43;
+  color: white;
+  margin-left: 5px;
+
+}
+
+#dark .content {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  padding: 15px;
+  background-color: #7F2CCB;
+  color: white;
+
+
+}
+
+#dark .title {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #7F2CCB;
+
+}
+
+
+
+#dark .edit_btn {
+  width: 120px;
+  height: 50px;
+  margin-right: 10px;
+  font-size: 15px;
+  border-radius: 40%;
+  background-color: #854798;
+  color: white;
+  font-size: 17x;
+  border: none;
+
+}
+
+#dark .delete_btn {
+  width: 120px;
+  height: 50px;
+  font-size: 17px;
+  border-radius: 40%;
+  background-color: #7C238C;
+  color: white;
+  border: none;
+
 }

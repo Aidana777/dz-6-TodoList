@@ -1,8 +1,13 @@
 import React from 'react'
+import Switch from 'react-switch'
 
-const Header = () => {
+import './header.css'
+const Header = ({ toggleTheme, theme }) => {
   return (
-    <div>Header</div>
+    <div className='header'>
+      <h1>To Do List </h1>
+      <Switch onChange={toggleTheme} checked={theme === 'dark'} />
+    </div>
   )
 }
 
