@@ -26,7 +26,7 @@ const TodoItem = ({ todos, setTodos, input, setInput, editTodo, setEditTodo }) =
   }, [setInput, editTodo])
 
   const onFormSubmit = (event) => {
-    event.preventDefault()
+    event.preventDefault();
     if (!editTodo) {
       setTodos([...todos, { id: uuidv4(), title: input, completed: false }])
       setInput('')
